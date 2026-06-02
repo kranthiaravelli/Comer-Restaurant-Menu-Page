@@ -1,0 +1,687 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', serif;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.726), rgba(255, 255, 255, 0)), url(bghome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0% 6%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.518);
+    transition: .2s ease;
+}
+
+.container nav ul li a:hover {
+    color: white;
+}
+
+#comer-menu-page {
+    width: 58%;
+    height: 400px;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+#comer-menu-page h1 span {
+    font-size: 60px;
+    color: rgb(251, 77, 77);
+    letter-spacing: -4px;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+#comer-menu-page h1 span:hover {
+    color: rgb(255, 0, 0);
+}
+
+#comer-menu-page h1 {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+#comer-menu-page .p1 {
+    color: rgb(195, 195, 195);
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+#comer-menu-page .p2 {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+#comer-menu-page .p3 {
+    letter-spacing: -1px;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+#comer-menu-page .p4{
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+#start {
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+#start .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 100px;
+    padding-right: 90px;
+}
+
+
+#start .top h2 {
+    letter-spacing: -1px;
+    font-size: 50px;
+    padding-left: 110px;
+    padding-bottom: 50px;
+}
+
+
+#start .hero .sea {
+    width: 680px;
+    height: auto;
+    padding-right: 50px;
+}
+
+#start .hero .sea h3 {
+    color: rgb(251, 77, 77);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+#start .hero .sea ol li h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+#start .hero .sea ol li p {
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: rgb(162, 162, 162);
+}
+
+#start .hero .meat {
+    width: 680px;
+    height: auto;
+    padding-right: 50px;
+}
+
+#start .hero .meat h3 {
+    color: rgb(251, 77, 77);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+#start .hero .meat ol li h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+#start .hero .meat ol li p {
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: rgb(162, 162, 162);
+}
+
+#start .hero .cheese {
+    width: 680px;
+    height: auto;
+    padding-right: 50px;
+}
+
+#start .hero .cheese h3 {
+    color: rgb(251, 77, 77);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+#start .hero .cheese ol li h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+#start .hero .cheese ol li p {
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: rgb(162, 162, 162);
+}
+
+#start .hero .veg {
+    width: 680px;
+    height: auto;
+    padding-right: 50px;
+}
+
+#start .hero .veg h3 {
+    color: rgb(251, 77, 77);
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+#start .hero .veg ol li h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+#start .hero .veg ol li p {
+    font-size: 16px;
+    padding-bottom: 15px;
+    color: rgb(162, 162, 162);
+}
+
+#start .order-now {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    position: relative;
+    top: 22px;
+    left: 45%;
+    right: 50%;
+    background-color: rgb(251, 77, 77);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#start .order-now:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+#main-course {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 6%;
+}
+
+#main-course .top2 h2{
+    letter-spacing: -2px;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+#main-course .hero2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#main-course .hero2 .meat2 {
+    padding-right: 30px;
+}
+
+#main-course .hero2 .meat2 h3 {
+    letter-spacing: -2px;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(251, 77, 77);
+    padding-bottom: 15px;
+}
+
+#main-course .hero2 .meat2 ul li {
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+#main-course .hero2 .sea2 {
+    padding-right: 30px;
+}
+
+#main-course .hero2 .sea2 h3 {
+    letter-spacing: -2px;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(251, 77, 77);
+    padding-bottom: 15px;
+}
+
+#main-course .hero2 .sea2 ul li {
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+#main-course .hero2 .veg2 {
+    padding-right: 30px;
+}
+
+#main-course .hero2 .veg2 h3 {
+    letter-spacing: -2px;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(251, 77, 77);
+    padding-bottom: 15px;
+}
+
+#main-course .hero2 .veg2 ul li {
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+#main-course .hero2 .global {
+    padding-right: 30px;
+}
+
+#main-course .hero2 .global h3 {
+    letter-spacing: -2px;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(251, 77, 77);
+    padding-bottom: 15px;
+}
+
+#main-course .hero2 .global ul li {
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+.para p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+}
+
+#main-course .order-now {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    position: relative;
+    top: 22px;
+    left: 45%;
+    right: 50%;
+    background-color: rgb(251, 77, 77);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#main-course .order-now:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+#desserts .hero3 {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 6%;
+}
+
+#desserts .hero3 h2 {
+    letter-spacing: -1px;
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+#desserts .hero3 ul li {
+    font-size: 22px;
+    padding-bottom: 12px;
+}
+
+#desserts .order-now {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    position: relative;
+    bottom: 150px;
+    left: 5%;
+    right: 50%;
+    background-color: #fb4d4d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#desserts .order-now:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+#desserts .container img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -650px;
+    left: 700px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 100%;
+    transition: .2s ease;
+}
+
+#desserts .container img:hover {
+    opacity: 75%;
+}
+
+#beverages .hero4 {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 6%;
+}
+
+#beverages .hero4 h2 {
+    font-size: 50px;
+    padding-top: 75px;
+    letter-spacing: -2px;
+    padding-bottom: 30px;
+}
+
+#beverages .hero4 ul li {
+    font-size: 22px;
+    padding-bottom: 13px;
+}
+
+#header .container img {
+    width: 160px;
+    height: 160px;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+
+#beverages .hero4 button {
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    position: relative;
+    bottom: -14px;
+    left: -20px;
+    right: 50%;
+    background-color: #fb4d4d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#beverages .order-now:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+#order-now .pyo {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 6%;
+    display: block;
+}
+
+#order-now .pyo h2 {
+    color: #fb4d4d;
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+#order-now .pyo .paragraph{
+    font-size: 14px;
+    padding-bottom: 40px;
+    color: rgb(181, 181, 181);
+}
+
+#order-now .pyo form .first {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#order-now .pyo form .first .name {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+#order-now .pyo form .first .name input {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: black;
+    align-items: center;
+}
+
+#order-now .pyo form .first .email {
+    font-size: 15px;
+}
+
+#order-now .pyo form .first .email input {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: black;
+    align-items: center;
+}
+
+#order-now .pyo form .first .number {
+    font-size: 15px;
+}
+
+#order-now .pyo form .first .number input {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: black;
+    align-items: center;
+}
+
+#order-now .pyo form .first .address {
+    font-size: 15px;
+}
+
+#order-now .pyo form .first .address textarea {
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding-left: 20px;
+    color: black;
+    align-items: center;
+}
+
+#order-now .pyo form legend {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#order-now .pyo form .second {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#order-now .pyo form .second .sec-start {
+    padding-right: 5px;
+}
+
+#order-now .pyo form .second .sec-start legend {
+    font-size: 15px;
+}
+
+#order-now .pyo form .second .sec-start select {
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#order-now .pyo form .second .sec-start select option {
+    padding-left: 200px;
+}
+
+
+#order-now .pyo form .second .sec-main legend {
+    font-size: 15px;
+}
+
+#order-now .pyo form .second .sec-main select {
+    width: 220px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#order-now .pyo form .second .sec-main select option {
+    padding-left: 200px;
+}
+
+#order-now .pyo form .second .sec-main {
+    padding-right: 5px;
+}
+
+#order-now .pyo form .second .sec-desserts select {
+    width: 220px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#order-now .pyo form .second .sec-desserts select option {
+    padding-left: 200px;
+}
+
+#order-now .pyo form .second .sec-desserts {
+    padding-right: 5px;
+}
+
+#order-now .pyo form .second .sec-beverages select {
+    width: 220px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#order-now .pyo form .second .sec-beverages select option {
+    padding-left: 200px;
+}
+
+
+#order-now .pyo form .second .food {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.order-now .pyo form .extras {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.extras label {
+    position: relative;
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.extras label::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 30px;
+}
+
+input[type="radio"]:checked + label::before{
+    height: 10px;
+    width: 10px;
+    border: 5px solid #fb4d4d;
+    background-color: #000;
+}
